@@ -7,3 +7,7 @@ The Plan and also the TODOs
 
 Why so complicated? Just for fun...
 
+** Package requires
+(1) AWSIoTPythonSDK
+(2) grovepi
+
