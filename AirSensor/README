@@ -1,12 +1,9 @@
 
 The Plan and also the TODOs
 
-(1) nodejs to host a web socket in 8080, allow retrieve data from sqlite
-(2) websocket web page to real time access nodejs websocket server
-    (2.1) initial page shows past 24 hours data
-    (2.2) update page every N seconds
-(3) a graphic show trend of Air quality, HCHO, dust
-(4) a python cron job to gather sensor data every N seconds and put in sqlite
+(1) an register IoT to AWS IoT service
+(2) push general sensor's information to AWS IoT 
+(3) receive command (via Shadow IoT) to ask for other sensor's info
 
 Why so complicated? Just for fun...
 
